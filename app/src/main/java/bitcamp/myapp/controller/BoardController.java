@@ -39,7 +39,7 @@ public class BoardController {
   private BoardService boardService;
   @Autowired
   private ObjectStorageService objectStorageService;
-  private String bucketName = "ncp-ai08-bucket-1111";
+  private String bucketName = "ncp-ai08-bucket-6600";
 
   @PostMapping
   public Object insert(
